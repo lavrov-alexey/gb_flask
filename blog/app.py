@@ -49,7 +49,7 @@ def custom_status_code():
     if request.method == "GET":
         return """\
         To get response with custom status code
-        send request using POST method
+        send request using POST method 
         and pass `code` in JSON body / FormData
         """
     print("raw bytes data:", request.data)
